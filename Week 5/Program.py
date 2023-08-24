@@ -1,0 +1,6 @@
+a=int(input("enter a value: "))
+b=int(input("enter b value: "))
+print(a+b)
+print(a is not b)
+print(a and b)
+print(a==b)
