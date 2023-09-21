@@ -1,4 +1,4 @@
-print("1: Sunday\n 2: Monday \n3.Tuesday \n4.Wednesday \n5.Thursday \n6.Friday \n7.Saturday")
+print("1: Sunday\n2: Monday \n3.Tuesday \n4.Wednesday \n5.Thursday \n6.Friday \n7.Saturday")
 ch = int(input('Enter option to print'))
 if (ch == 1):
     print("Sunday")
@@ -15,4 +15,4 @@ elif(ch == 6):
 elif (ch == 7):
     print("Saturday")
 else:
-    print("Wrong option)")
+    print("Wrong option")
