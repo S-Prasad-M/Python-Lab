@@ -26,6 +26,8 @@ for i in range(n1):
 
 
 
+
+
 # # Dot Plot Matrix
 # seq1 = "ATTAGC"
 # seq2 = "ATAGC"
