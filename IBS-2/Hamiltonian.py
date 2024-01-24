@@ -4,7 +4,7 @@ def mermer(seq, k):
     for i in range(len(seq)-k-1):
         L.append(seq[i:i+k])
     return sorted(L)
-
+ 
 def reconstruct(L):
     temp_L = [i for i in L]
     seq=temp_L[random.randint(0,len(temp_L)-1)]
@@ -30,4 +30,5 @@ def reconstruct(L):
 k = int(input("Ënter k:"))
 k_mers = mermer("ATAGGCTACATGCG",k)
 print(k_mers)
+# print(sorted(k_mers))
 reconstruct(k_mers)
