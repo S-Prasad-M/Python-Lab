@@ -12,7 +12,7 @@ for i in range(n1):
 
 for i in range(1,n2):
     for j in range(1,n1):
-        diagonal = 0
+        diagonal = matrix[i-1][j-1]
         if seq1[i-1] == seq2[j-1]:
             diagonal += match
         else:
