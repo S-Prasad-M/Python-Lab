@@ -30,6 +30,8 @@ start = matrix[n1-1][n2-1]
 s1 = ""; s2 = ""
 while i!=0 and j!=0:
     if seq1[i-1] == seq2[j-1]:
+        i-=1; j-=1
+        s1+=seq1[i]; s2+=seq2[j]
 
 
 
