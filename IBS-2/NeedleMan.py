@@ -24,6 +24,10 @@ for i in range(1,n2):
 for i in range(n1):
     print(matrix[i])
 
+i = n1-1; j = n2-1
+start = matrix[n1-1][n2-1]
+while i!=0 and j!=0:
+    
 
 
 

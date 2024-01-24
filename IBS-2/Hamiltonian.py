@@ -1,4 +1,5 @@
 import random
+
 def mermer(seq, k):
     L = []
     for i in range(len(seq)-k-1):
