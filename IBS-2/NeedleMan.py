@@ -6,9 +6,10 @@ seq1 = "ATGCA"; n1 = len(seq1)
 seq2 = "AGCAA"; n2 = len(seq2)
 matrix = [[0] * n1 for _ in range(n2)]
 for i in range(n2):
-    matrix[i][0] = i * mismatch
+    matrix[i][0] = i * gap
 for i in range(n1):
-    matrix[0][i] = i * mismatch
+    matrix[0][i] = i * gap
+
 for i in range(1,n2):
     for j in range(1,n1):
         diagonal = 0
@@ -25,3 +26,15 @@ for i in range(n1):
 
 
 
+# # Dot Plot Matrix
+
+# seq1 = "GCTAA"
+# seq2 = "GCTGAA"
+# matrix = [[0 for j in range(len(seq2))] for i in range(len(seq1))]
+# # print(matrix)
+# for i in range(len(seq1)):
+#     for j in range(len(seq2)):
+#         if seq1[i] == seq2[j]:
+#             matrix[i][j] = 1
+# for i in range(len(matrix)):
+#     print(matrix[i])
