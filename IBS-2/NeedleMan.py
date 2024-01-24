@@ -16,5 +16,8 @@ for i in range(1,n2):
             diagonal += match
         else:
             diagonal += mismatch
+        left = matrix[i][j-1] + gap
+        up = matrix[i - 1][j] + gap
+        matrix[i][j] = max(diagonal, up, left)
         
 
