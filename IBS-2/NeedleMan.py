@@ -2,7 +2,7 @@ matrix = []
 match = 2
 mismatch = -1
 gap = -2
-seq1 = "ATGCA"; n1 = len(seq1)+1
+seq1 = "ATTA"; n1 = len(seq1)+1
 seq2 = "AGCA"; n2 = len(seq2)+1
 matrix = [[0] * n1 for _ in range(n2)]
 for i in range(n2):
