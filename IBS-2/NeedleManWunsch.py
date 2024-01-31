@@ -1,7 +1,5 @@
 matrix = []
-match = 2
-mismatch = -1
-gap = -2
+match = 2; mismatch = -1; gap = -2
 seq1 = "ATGCA"
 seq2 = "ATTGGCA"
 n1 = len(seq1) + 1; n2 = len(seq2) + 1
