@@ -45,7 +45,7 @@ def DeBrujin(patterns):
     return adjdb
 
 
-data = //To be given
+data = #To be given
 adjdb = DeBrujin(data)
 for seq1, seq2 in adjdb.items():
     print(seq1+' -> '+','.join(seq2))
